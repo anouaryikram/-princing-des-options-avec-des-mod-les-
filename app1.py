@@ -194,7 +194,6 @@ with center_col:
             """
             <div style='color:red; font-weight:bold; text-align:center; font-size:20px;'>
             Erreur : Arbitrage<br>
-            (la volatilité ne peut pas être négative)
             </div>
             """,
             unsafe_allow_html=True,
@@ -372,4 +371,5 @@ with right_col:
 
 
     st.markdown("</div>", unsafe_allow_html=True)
+
 
