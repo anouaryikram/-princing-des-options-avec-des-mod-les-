@@ -1,4 +1,4 @@
-%%writefile app.py
+
 # app.py
 import streamlit as st
 import numpy as np
@@ -366,5 +366,6 @@ with right_col:
             st.markdown(f"{g}** : {v:.6f}")
     else:
         st.write("Les Greeks s’affichent après calcul Black-Scholes.")
+
 
     st.markdown("</div>", unsafe_allow_html=True)
