@@ -1,10 +1,13 @@
 
-# app.py
+
 import streamlit as st
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.stats import norm
 import math
+import time
+
 
 st.set_page_config(layout="wide", page_title="Pricing d'une option européenne")
 
@@ -369,3 +372,4 @@ with right_col:
 
 
     st.markdown("</div>", unsafe_allow_html=True)
+
